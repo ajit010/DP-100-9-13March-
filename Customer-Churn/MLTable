@@ -1,0 +1,8 @@
+# MLTable definition file
+
+paths:
+  - file: ./Churn_Modelling.csv
+transformations:
+  - read_delimited:
+        delimiter: ','
+        encoding: 'ascii'
